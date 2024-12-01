@@ -17,14 +17,17 @@ header {
     width: 100%;
     z-index: 100;
 }
+
 header h1 {
     font-size: 40px;
     color: white;
 }
+
 header nav {
     display: flex;
     gap: 30px;
 }
+
 header nav a {
     text-decoration: none;
     font-size: 20px;
@@ -34,12 +37,15 @@ header nav a {
     transition: 0.3s;
     color: white;
 }
+
 header nav a.active {
     background: #5247B9;
 }
+
 header nav a:hover {
     background: #5247B9;
 }
+
 header nav:hover > a:not(:hover) {
     background: none;
 }
@@ -76,6 +82,7 @@ header nav:hover > a:not(:hover) {
     position: relative;
     z-index: 100;
 }
+
 .about h1 {
     font-size: 40px;
 }
