@@ -7,7 +7,7 @@ const mount2 = document.querySelector('.mount2')
 
 document.addEventListener('scroll', function() {
     let value = window.scrollY
-    // console.log(value)
+    
     title.style.marginTop = value * 1.1 + 'px'
 
     leaf1.style.marginLeft = -value + 'px'
